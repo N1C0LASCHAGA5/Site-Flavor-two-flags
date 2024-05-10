@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 .cabeçalho-imagem {
@@ -68,8 +69,50 @@ body {
 }
 
 .button {
+  background-image: none;
+  text-align: center;
+  border-top: 30% solid;
   color: #ffffff;
-  background-color: #ffffff;
+  background-color: #000000;
   font-size: 200%;
   justify-content: center;
+  padding: 3mm;
+}
+div.seta-down {
+  width: 40px;
+  height: 40px;
+  background-image: none;
+
+  
+  background-size: contain;
+  position: absolute;
+  top: 500px;
+}
+
+section {
+  position: relative;
+  height: 90vh;
+  width: 100px;
+
+
+
+  animation-name: setadown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes setabdown {
+  0% {
+    top: 0px;
+  }
+
+  100% {
+    top: 20px;
+
+  }
+
+
 }

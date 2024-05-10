@@ -4,53 +4,117 @@
 }
 
 .Cabeçalho-titulo {
-    background-image: none;
+    position: absolute;
+    display: block;
+    font-style: italic;
+    text-align: center;
     font-size: 50px;
-
-
 }
 
 .Cabeçalho-item {
-    background-image: none;
+    scroll-margin-top: 1%;
+    font-style: italic;
+    margin: 1mm;
+    text-align: center;
     font-size: 35px;
     display: flex;
     padding: 0%;
 }
 
 .cabeçalho-item {
+    font-style: italic;
+    margin: 9%;
+    letter-spacing: 1mm;
+    text-size-adjust: 30%;
     background-image: none;
-    font-size: 25px;
-    display: flex;
-    padding: 0%;
-    margin: 2%;
+    text-align: left;
+    display: contents;
+    font-size: 40px;
+    padding: 3mm
 }
 
 .cabeçalho-lista {
+    font-style: serif;
+    margin: 1mm;
     background-image: none;
     font-size: 40px;
 }
 
 .cabeçalho-ITEM {
+    margin: 1mm;
     display: flex;
     padding: 0%;
     background-image: none;
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
 .Arepa {
     width: 30%;
-    ;
 }
 
 .iTem-cabeçalho {
+    margin: 1mm;
     background-image: none;
     font-size: 30px;
 }
 
 body {
-    background-size: 100%;
-    background-image: linear-gradient(#000000, #444343ea);
 
+    background-size: 100%;
+    background-image: linear-gradient(#000000, #2e2e2e);
     color: rgb(255, 255, 255);
+}
+
+.Cabecalho-titulo {
+    margin: 1mm;
+    letter-spacing: 1mm;
+    text-align: center;
+    padding: 3mm;
+    font-size: 30px;
+}
+
+.cabeçalho-bolo {
+    width: 30%;
+    height: 320px;
+}
+
+
+.CabeÇalho-bolo {
+    margin: 1mm;
+    font-style: italic;
+    font-size: 30px;
+    text-align: left;
+    padding: 3mm;
+}
+
+.CabeÇalho-titulo {
+    margin: 1mm;
+    padding: 3mm;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+.Cabeçalho-lista {
+    width: 420px;
+    height: 300px
+}
+
+.Titulo {
+    text-align: center;
+    padding: 3mm;
+    margin: 1mm;
+  display: flex;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.Cabeçalho-tituLo{
+font-size: 30px;
+display: flex;
+margin: 1mm;
+padding: 3mm;
+background-image: none;
+font-style: italic;
 }
