@@ -5,32 +5,33 @@
 
 .Cabeçalho-titulo {
     position: absolute;
-    display: block;
+
     font-style: italic;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
+    transform: translateY(+55px);
 }
 
 .Cabeçalho-item {
     scroll-margin-top: 1%;
     font-style: italic;
     margin: 1mm;
-    text-align: center;
-    font-size: 35px;
-    display: flex;
+    text-align: left;
+    font-size:40px;
+  display: flex;
     padding: 0%;
+transform: translateY(-10px);
+
 }
 
 .cabeçalho-item {
-    font-style: italic;
-    margin: 9%;
-    letter-spacing: 1mm;
-    text-size-adjust: 30%;
-    background-image: none;
-    text-align: left;
-    display: contents;
-    font-size: 40px;
-    padding: 3mm
+font-style: italic;
+letter-spacing: 1mm;
+margin: 1mm;
+padding: 3mm;
+font-size: 48px;
+display: flex;
+transform: translateY(-13px)
 }
 
 .cabeçalho-lista {
@@ -40,13 +41,22 @@
     font-size: 40px;
 }
 
+.caBeçalho-item{
+font-size: 36px;
+font-style: italic;
+margin: 3mm;
+letter-spacing: 1mm;
+transform: translateY(-8px);
+
+}
+
 .cabeçalho-ITEM {
     margin: 1mm;
     display: flex;
     padding: 0%;
     background-image: none;
     font-size: 40px;
-
+transform: translateY(-6px);
 }
 
 .Arepa {
@@ -118,3 +128,34 @@ padding: 3mm;
 background-image: none;
 font-style: italic;
 }
+
+.Titulo-Valor{
+text-align: center;
+font-size: 60px;
+margin: 1mm;
+padding: 3mm;
+font-style: italic;
+}
+
+.Primeiro{
+font-size: 60px;
+margin: 3mm;
+padding: 1mm;
+font-style: oblique;
+transform: translateX(+250px);
+display: block;
+}
+
+.Segundo{
+font-size: 60px;
+transform: translateY(+90px);
+margin: 3mm;
+padding: 1mm;
+font-style: oblique;
+}
+
+.Segundo{
+    transform: translateX(+800px);
+}
+
+
